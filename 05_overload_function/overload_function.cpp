@@ -1,28 +1,28 @@
 #include<iostream>
 using namespace std;
-//函數重載條件
+//ㄧ计更兵ン
 void fun(){
-    cout << "無參的fun" << endl;
+    cout << "礚把fun" << endl;
 }
 
-//a. 參數個數不同
+//a. 把计计ぃ
 void fun(int a){
-    cout << " 一個int參數的fun" << endl;
+    cout << " int把计fun" << endl;
 }
-//b. 參數類型不同
+//b. 把计摸ぃ
 void fun(char b){
-    cout << " 一個char參數的fun" << endl;
+    cout << " char把计fun" << endl;
 }
-//c. 參數順序不同
+//c. 把计抖ぃ
 void fun(int a, char b){
-    cout << "(int, char)的fun" << endl;
+    cout << "(int, char)fun" << endl;
 }
 
 void fun(char a, int b){
-    cout << "(char, int)的fun" << endl;
+    cout << "(char, int)fun" << endl;
 }
 
-//函數類型的返回值不能作為重載的依據
+//ㄧ计摸ぃ更ㄌ沮
 // int fun(int a){
 //     return a;
 // }
@@ -34,5 +34,4 @@ int main(){
     fun('a');
     fun(10, 'a');
     fun('a', 10);
-
 }
