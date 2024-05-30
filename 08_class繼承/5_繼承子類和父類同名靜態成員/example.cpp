@@ -1,8 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
-
 class Base
 {
 public:
@@ -32,9 +30,6 @@ public:
 };
 
 int Son::data = 200;
-
-
-
 
 
 int main(){

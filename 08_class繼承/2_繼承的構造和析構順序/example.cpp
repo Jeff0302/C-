@@ -49,7 +49,8 @@ public:
         cout << "子類的有參構造函數(int b)" << endl;
         this->b = b;
     };
-
+    //子類必須用 初始化列表 顯示調用父類的有參構造函數
+    //父類名稱(參數)
     Son(int a, int b):Base(a){
         cout << "子類的有參構造函數(int a, int b)" << endl;
         this->b = b;
@@ -64,7 +65,8 @@ int main(){
     //子類 默認 會調用 父類無參構造
     Son son1(10);
     
-    //
+    
+    //子類必須用 初始化列表 顯示調用父類的有參構造函數
     Son son2(10, 20);
     cout << "son.a=" << son2.a << endl;
     cout << "son.b=" << son2.b << endl;

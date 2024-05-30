@@ -64,8 +64,4 @@ int main(){
 
     mysort<char>(b, len_b);
     printAll<char>(b, len_b);
-
-
-
-
 }

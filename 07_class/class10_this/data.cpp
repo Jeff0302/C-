@@ -12,6 +12,7 @@ public:
         m_num = num;
     };
     
+    //const修飾成員函數,修飾的是this指針指向的內存區, 表示成員函數內不可以修改普通成員變量。
     int getNum() const
     {
         return m_num;

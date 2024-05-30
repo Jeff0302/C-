@@ -51,6 +51,4 @@ int main(){
     cout << "sg1 freq=" << sg1.getFreq() << endl;
     sg2.setFreq(2442.0);
     cout << "sg2 freq=" << sg2.getFreq() << endl;
-
-
 }
