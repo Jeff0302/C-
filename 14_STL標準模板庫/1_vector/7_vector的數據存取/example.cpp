@@ -16,10 +16,8 @@ int main(){
     v.push_back(30);
     v.push_back(40);
 
-    cout << "at(1)= " << v.at(1) << endl;
-    cout << "v[1]= " << v[1] << endl;
-    cout << "v.front()= " << v.front() << endl;
-    cout << "v.back()= " << v.back() << endl;
-
-
+    cout << "at(1)= " << v.at(1) << endl; //20
+    cout << "v[1]= " << v[1] << endl;   //20
+    cout << "v.front()= " << v.front() << endl; //10
+    cout << "v.back()= " << v.back() << endl; //40
 }

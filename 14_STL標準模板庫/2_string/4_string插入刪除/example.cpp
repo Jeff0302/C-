@@ -21,6 +21,4 @@ cout << str1 << endl;
 //²MªÅ¦r²Å¦ê
 str1.erase(0, str1.size());
 cout << str1.size() << endl;
-
-
 } 

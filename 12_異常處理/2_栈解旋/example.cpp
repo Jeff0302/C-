@@ -9,17 +9,14 @@ private:
     string name;
 public:
     Person(string name):name(name){
-        cout << "Person構造函數, "  << this->name << endl;
-        
-    }
-    
+        cout << "Person構造函數, "  << this->name << endl;    
+    }    
     ~Person(){
          cout << "Person析構函數, " << this->name << endl;
     }
 };
 
 int main(){
-    
     try
     {
         Person p1("jeff1");
@@ -32,9 +29,5 @@ int main(){
         cout << e << endl;
     }
 
-      cout << "其他工作" << endl;
-    
-
-
-
+    cout << "其他工作" << endl;
 }

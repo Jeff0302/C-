@@ -44,16 +44,6 @@ int main(){
     v.clear();
     for_each_cb(v.begin(), v.end(),[](int a){cout << a << " ";},[](){cout << endl;});
 
-
-
-
-
-
-    
-    
-
-
-
 }
 
 
